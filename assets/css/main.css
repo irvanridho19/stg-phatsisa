@@ -19,6 +19,14 @@ html {
   font-family: var(--font-secondary);
 }
 
+.title {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: 800;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -55,7 +63,7 @@ h6 {
 
 .text-primary {
   color: var(--color-primary) !important;
-  font-family: var(--font-secondary) !important; 
+  font-family: var(--font-secondary) !important;
   font-weight: 700 !important;
 }
 
