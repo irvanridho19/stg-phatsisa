@@ -67,6 +67,22 @@ h6 {
   font-weight: 700 !important;
 }
 
+.bg-orange {
+  background: #F1760F !important;
+}
+
+.color-orange {
+  color: var(--color-primary) !important;
+}
+
+.btn-shippii-orange {
+  background-color: var(--color-primary) !important;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 1rem;
+}
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -308,7 +324,7 @@ section {
 .header .logo img {
   margin-right: 6px;
   width: auto;
-  height: 72px;
+  height: 56px;
 }
 
 .header .logo h1 {
@@ -1973,4 +1989,45 @@ section {
 
 .content-card-probihited {
   padding: 1.5rem;
+}
+
+/* TABLES */
+
+.table .th-sendii {
+  background: #FFF8EB !important;
+}
+
+.table .td-sendii {
+  background: #EEFBF3 !important;
+}
+
+
+.track form {
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid grey;
+}
+
+.track form .form-control {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  margin-right: 10px;
+  border: none !important;
+  background: none !important;
+}
+
+.track form .form-control:hover,
+.track form .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.track form .btn-primary {
+  background-color: var(--color-primary);
+  padding: 15px 30px;
+  border: none !important;
 }
